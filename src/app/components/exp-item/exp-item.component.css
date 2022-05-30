@@ -1,0 +1,20 @@
+.exp {
+    margin: 2px;
+    padding: 5px 10px;
+    color: black;
+}
+
+.com {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.yrs {
+    font-size: xx-small;
+    font-style: italic;
+}
+
+.pro {
+    font-size: smaller;
+}
