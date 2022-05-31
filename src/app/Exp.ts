@@ -3,6 +3,8 @@ export interface Exp {
     company: string,
     position: string,
     period: string,
-    time_frame: string,
-    projects: string[],
+    duration: string,
+    project_one: string,
+    project_two: string,
+    project_three: string,
 }
