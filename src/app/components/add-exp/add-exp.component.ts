@@ -1,4 +1,6 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { ExpUiService } from "../../services/exp-ui.service";
+import { Subscription } from "rxjs";
 import { Exp } from 'src/app/Exp';
 
 @Component({
@@ -15,8 +17,12 @@ export class AddExpComponent implements OnInit {
   project_one!: string;
   project_two!: string;
   project_three!: string;
+  show_add_exp!: boolean;
+  subscription!: Subscription;
 
-  constructor() { }
+  constructor( private exp_ui_service:ExpUiService) { 
+    this.subscription = this.exp_ui_service.on_toggle_add_exp().subscribe((value) => (this.show_add_exp = value))
+  }
 
   ngOnInit(): void {
   }
