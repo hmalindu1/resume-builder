@@ -13,7 +13,6 @@ export class ExpService {
   constructor(private http:HttpClient) { }
 
   get_exps(): Observable<Exp[]> {
-    const exps = of (EXPS);
-    return exps;
+    return this.http.get<Exp[]>(this.api_url)
   }
 }
