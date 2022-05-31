@@ -1,0 +1,15 @@
+.form-control-projects label {
+    margin: 0 20px 0 10px;
+    display: block;
+    color: rgb(54, 54, 54);
+}
+
+.form-control-projects input {
+    width: 117mm;
+    margin: 5px;
+    padding: 3px 7px;
+    font-size: 10px;
+    margin: 0 20px 10px 10px;
+    font-family: inherit;
+
+}
