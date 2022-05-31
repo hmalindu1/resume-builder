@@ -17,7 +17,7 @@ export class ExpsComponent implements OnInit {
   }
 
   delete_exp(exp: Exp) {
-    this.exp_service.delete_exp_s(exp).subscribe(() => (this.exps = this.exps.filter(e => e.id! !== exp.id)));
+    this.exp_service.delete_exp_s(exp).subscribe(() => (this.exps = this.exps.filter((e) => e.id !== exp.id)));
   }
 
 }
