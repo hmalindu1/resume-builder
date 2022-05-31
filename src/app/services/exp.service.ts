@@ -3,6 +3,12 @@ import { HttpClient, HttpHeaders } from "@angular/common/http";
 import { Observable, of } from "rxjs";
 import { Exp } from "../Exp";
 
+const http_options = {
+  headers: new HttpHeaders({
+    'Content-Type' : 'application/json' 
+  })
+}
+
 @Injectable({
   providedIn: 'root'
 })
