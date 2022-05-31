@@ -1,15 +1,23 @@
 <div class="exp">
     <div class="com">
-        <h4>{{exp.company}}</h4>
+        <h4>
+            <fa-icon [icon]="faCircleDot"></fa-icon> {{exp.company}}
+        </h4>
         <h5 class="yrs">{{exp.period}}</h5>
     </div>
     <div class="com">
-        <h5>{{exp.position}}</h5>
+        <h5 class="pos">{{exp.position}}</h5>
         <h5 class="yrs">{{exp.time_frame}}</h5>
     </div>
     <div class="pro">
-        <p>{{exp.projects[0]}}</p>
-        <p>{{exp.projects[1]}}</p>
-        <p>{{exp.projects[2]}}</p>
+        <p class="des">
+            <fa-icon class="cir" [icon]="faCircle" size="xs"></fa-icon> {{exp.projects[0]}}
+        </p>
+        <p class="des">
+            <fa-icon class="cir" [icon]="faCircle" size="xs"></fa-icon> {{exp.projects[1]}}
+        </p>
+        <p class="des">
+            <fa-icon class="cir" [icon]="faCircle" size="xs"></fa-icon> {{exp.projects[2]}}
+        </p>
     </div>
 </div>
