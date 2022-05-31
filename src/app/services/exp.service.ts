@@ -25,4 +25,8 @@ export class ExpService {
     const url = `${this.api_url}/${exp.id}`;
     return this.http.delete<Exp>(url);
   }
+
+  add_exp_s(exp: Exp): Observable<Exp> {
+    return this.http.post<Exp>(this.api_url, exp, http_options)
+  }
 }
