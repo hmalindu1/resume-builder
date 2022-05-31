@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ExpService } from "../../services/exp.service";
 import { Exp } from "../../Exp";
-import { EXPS } from "../../mock-exp";
 
 @Component({
   selector: 'app-exps',
@@ -8,11 +8,12 @@ import { EXPS } from "../../mock-exp";
   styleUrls: ['./exps.component.css']
 })
 export class ExpsComponent implements OnInit {
-  exps: Exp[] = EXPS
+  exps: Exp[] = [];
 
-  constructor() { }
+  constructor(private exp_service: ExpService) { }
 
   ngOnInit(): void {
+    this.exps = this.exp_service.get_exps()
   }
 
 }
