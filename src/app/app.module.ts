@@ -20,7 +20,8 @@ import { ExpItemComponent } from './components/exp-item/exp-item.component';
   ],
   imports: [
     BrowserModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
