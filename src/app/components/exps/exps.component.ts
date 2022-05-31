@@ -13,7 +13,7 @@ export class ExpsComponent implements OnInit {
   constructor(private exp_service: ExpService) { }
 
   ngOnInit(): void {
-    this.exps = this.exp_service.get_exps()
+    this.exp_service.get_exps().subscribe((exps) => this.exps = exps);
   }
 
 }
