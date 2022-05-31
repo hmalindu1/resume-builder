@@ -2,5 +2,5 @@
     <h4>
         <fa-icon class="bis_icon" [icon]="faBuilding"></fa-icon> {{title}}
     </h4>
-    <app-button color="rgb(54, 174, 124)" text="Add" (btn_click)="toggle_add_experience()"></app-button>
+    <app-button color="{{show_add_exp ? 'rgb(235, 83, 83)' : 'rgb(54, 174, 124)'}}" text="{{show_add_exp ? 'Close' : 'Add'}}" (btn_click)="toggle_add_experience()"></app-button>
 </header>
