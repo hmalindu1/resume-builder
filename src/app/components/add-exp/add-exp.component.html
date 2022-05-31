@@ -1,22 +1,22 @@
-<form (ngSubmit)="on_submit()">
+<form *ngIf="show_add_exp"(ngSubmit)="on_submit()">
     <div class="form-control">
-        <label for="company">Company Name</label>
+        <h4 for="company">Company Name</h4>
         <input type="text" name="company" [(ngModel)]="company" id="company" placeholder="Add Company Name">
     </div>
     <div class="form-control">
-        <label for="position">Position Held</label>
+        <h4 for="position">Position Held</h4>
         <input type="text" name="position" [(ngModel)]="position" id="position" placeholder="Add Position Held">
     </div>
     <div class="form-control">
-        <label for="period">Period</label>
+        <h4 for="period">Period</h4>
         <input type="text" name="period" [(ngModel)]="period" id="period" placeholder="Add Period">
     </div>
     <div class="form-control">
-        <label for="duration">Duration</label>
+        <h4 for="duration">Duration</h4>
         <input type="text" name="duration" [(ngModel)]="duration" id="duration" placeholder="Add Duration">
     </div>
     <div class="form-control-projects">
-        <label for="projects">Projects</label>
+        <h4 for="projects">Projects</h4>
         <input type="text" name="project_one" [(ngModel)]="project_one" id="projects" placeholder="Add Project 1">
         <input type="text" name="project_two" [(ngModel)]="project_two" id="projects" placeholder="Add Project 2">
         <input type="text" name="project_three" [(ngModel)]="project_three" id="projects" placeholder="Add Project 3">
