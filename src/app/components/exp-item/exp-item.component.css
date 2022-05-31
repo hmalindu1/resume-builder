@@ -16,5 +16,19 @@
 }
 
 .pro {
-    font-size: smaller;
+    font-size: xx-small;
+    margin-left: 30px;
+}
+
+.pos {
+    margin-left: 20px;
+    color: rgb(0, 181, 252);
+}
+
+.des {
+    display: flex;
+}
+
+.cir {
+    margin-right: 5px;
 }
