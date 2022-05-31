@@ -5,24 +5,30 @@
       "company": "LSEG",
       "position": "Tech Lead",
       "period": "June 2021 - Present",
-      "time_frame": "1 Years",
-      "projects": [
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "Lorem Ipsum has been the industrys standard dummy text ever since the 1500s",
-        "when an unknown printer took a galley of type and scrambled it to make a type specimen book"
-      ]
+      "duration": "1 Years",
+      "project_one": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "project_two": "Lorem Ipsum has been the industrys standard dummy text ever since the 1500s",
+      "project_three": "when an unknown printer took a galley of type and scrambled it to make a type specimen book"
     },
     {
       "id": 2,
       "company": "Synopsys",
       "position": "Assoceate Tech Lead",
       "period": "March 2018 - June 2021",
-      "time_frame": "2 Years",
-      "projects": [
-        "It has survived not only five centuries",
-        "but also the leap into electronic typesetting, remaining essentially unchanged",
-        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages"
-      ]
+      "duration": "2 Years",
+      "project_one": "It has survived not only five centuries",
+      "project_two": "but also the leap into electronic typesetting, remaining essentially unchanged",
+      "project_three": "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages"
+    },
+    {
+      "company": "Test Company",
+      "position": "Test Position",
+      "period": "Test Period",
+      "duration": "Test Duration",
+      "project_one": "Test project 1",
+      "project_two": "Test project 2",
+      "project_three": "Test project 3",
+      "id": 3
     }
   ]
 }
