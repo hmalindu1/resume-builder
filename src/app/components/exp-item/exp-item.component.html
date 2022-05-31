@@ -3,7 +3,9 @@
         <h4>
             <fa-icon [icon]="faCircleDot"></fa-icon> {{exp.company}}
         </h4>
-        <h5 class="yrs">{{exp.period}}</h5>
+        <h5 class="prd">{{exp.period}}
+            <fa-icon [ngStyle]="{'color': 'red'}" class="close" [icon]="faCircleXmark" size="2x"></fa-icon>
+        </h5>
     </div>
     <div class="com">
         <h5 class="pos">{{exp.position}}</h5>
