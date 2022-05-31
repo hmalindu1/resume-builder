@@ -8,6 +8,7 @@ import { EXPS } from "../mock-exp";
   providedIn: 'root'
 })
 export class ExpService {
+  private api_url = 'http://localhost:5000/exps'
 
   constructor() { }
 
