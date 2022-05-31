@@ -10,7 +10,7 @@ import { EXPS } from "../mock-exp";
 export class ExpService {
   private api_url = 'http://localhost:5000/exps'
 
-  constructor() { }
+  constructor(private http:HttpClient) { }
 
   get_exps(): Observable<Exp[]> {
     const exps = of (EXPS);
