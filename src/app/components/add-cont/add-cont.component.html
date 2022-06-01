@@ -1,0 +1,27 @@
+<form (ngSubmit)="on_submit()">
+    <div class="form-control">
+        <h4 for="name">Name</h4>
+        <input type="text" name="name" [(ngModel)]="name" id="name" placeholder="Add Name">
+    </div>
+    <div class="form-control">
+        <h4 for="position">Position</h4>
+        <input type="text" name="position" [(ngModel)]="position" id="position" placeholder="Add Position Held">
+    </div>
+    <div class="form-control">
+        <h4 for="experience">Experience</h4>
+        <input type="text" name="experience" [(ngModel)]="exp" id="experience" placeholder="Add Experience">
+    </div>
+    <div class="form-control">
+        <h4 for="number">Mobile number</h4>
+        <input type="text" name="number" [(ngModel)]="mo_number" id="number" placeholder="Add Mobile number">
+    </div>
+    <div class="form-control">
+        <h4 for="email">Email</h4>
+        <input type="text" name="email" [(ngModel)]="email" id="email" placeholder="Add Email">
+    </div>
+    <div class="form-control">
+        <h4 for="add">Address</h4>
+        <input type="text" name="add" [(ngModel)]="location" id="add" placeholder="Add address">
+    </div>
+    <input type="submit" value="Save" class="btn btn-block">
+</form>
