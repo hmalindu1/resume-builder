@@ -3,6 +3,11 @@ import { HttpClient, HttpHeaders } from "@angular/common/http";
 import { Observable, } from "rxjs";
 import { Cont } from "../Cont";
 
+const http_options = {
+  headers: new HttpHeaders({
+    'Content-Type' : 'application/json' 
+  })
+}
 
 @Injectable({
   providedIn: 'root'
@@ -14,6 +19,10 @@ export class ConstService {
 
   get_conts(): Observable<Cont[]> {
     return this.http.get<Cont[]>(this.api_url)
+  }
+
+  add_cont_s(cont: Cont): Observable<Cont> {
+    return this.http.post<Cont>(this.api_url, cont, http_options)
   }
 }
 
