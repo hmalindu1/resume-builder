@@ -1,0 +1,47 @@
+.full {
+    margin: 0px;
+    padding: 2px 0px 3px 10px;
+    color: black;
+}
+
+.row_one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+.row_two {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.row_three {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.phn_no {
+    font-size: x-small;
+}
+
+.close {
+    margin-left: 0px;
+    cursor: pointer;
+}
+
+.email {
+    font-size: x-small;
+    margin-right: 23px;
+}
+
+.phn {
+    margin-right: 10px;
+}
+
+.pos {
+    color: rgb(0, 153, 255);
+}
