@@ -1,0 +1,21 @@
+<div class="full">
+    <div class="row_one">
+        <h3>{{cont.name}}</h3>
+        <h5 class="phn_no">
+            <fa-icon [ngStyle]="{'color': 'rgb(0, 153, 255)'}" class="phn" [icon]="faMobileScreenButton" size="1x"></fa-icon>{{cont.mo_number}}
+            <fa-icon [ngStyle]="{'color': 'rgb(235, 83, 83)'}" class="close" [icon]="faCircleXmark" size="2x"></fa-icon>
+        </h5>
+    </div>
+    <div class="row_two">
+        <h4 class="pos">{{cont.position}}</h4>
+        <h6 class="email">
+            <fa-icon [ngStyle]="{'color': 'rgb(0, 153, 255)'}" class="phn" [icon]="faEnvelopeOpen" size="1x"></fa-icon>{{cont.email}}
+        </h6>
+    </div>
+    <div class="row_three">
+        <h6>{{cont.exp}}</h6>
+        <h6 class="email">
+            <fa-icon [ngStyle]="{'color': 'rgb(0, 153, 255)'}" class="phn" [icon]="faLocationDot" size="1x"></fa-icon>{{cont.location}}
+        </h6>
+    </div>
+</div>
