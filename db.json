@@ -40,24 +40,6 @@
       "email": "hemachandra.hashan@gmail.com",
       "location": "Badulla, Sri-Lanka",
       "exp": "Total Experience: 2 Years"
-    },
-    {
-      "name": "sd",
-      "position": "dsdf",
-      "mo_number": "sdf",
-      "email": "sdf",
-      "location": "sdf",
-      "exp": "sdf",
-      "id": 2
-    },
-    {
-      "name": "asd",
-      "position": "",
-      "mo_number": "",
-      "email": "d",
-      "location": "",
-      "exp": "d",
-      "id": 3
     }
   ]
 }
