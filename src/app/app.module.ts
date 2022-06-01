@@ -11,6 +11,9 @@ import { ButtonComponent } from './components/button/button.component';
 import { ExpsComponent } from './components/exps/exps.component';
 import { ExpItemComponent } from './components/exp-item/exp-item.component';
 import { AddExpComponent } from './components/add-exp/add-exp.component';
+import { InfoComponent } from './components/info/info.component';
+import { ContsComponent } from './components/conts/conts.component';
+import { ContItemComponent } from './components/cont-item/cont-item.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +23,9 @@ import { AddExpComponent } from './components/add-exp/add-exp.component';
     ExpsComponent,
     ExpItemComponent,
     AddExpComponent,
+    InfoComponent,
+    ContsComponent,
+    ContItemComponent,
   ],
   imports: [
     BrowserModule,
