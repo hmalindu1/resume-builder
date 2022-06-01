@@ -14,6 +14,7 @@ import { AddExpComponent } from './components/add-exp/add-exp.component';
 import { InfoComponent } from './components/info/info.component';
 import { ContsComponent } from './components/conts/conts.component';
 import { ContItemComponent } from './components/cont-item/cont-item.component';
+import { AddContComponent } from './components/add-cont/add-cont.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { ContItemComponent } from './components/cont-item/cont-item.component';
     InfoComponent,
     ContsComponent,
     ContItemComponent,
+    AddContComponent,
   ],
   imports: [
     BrowserModule,
