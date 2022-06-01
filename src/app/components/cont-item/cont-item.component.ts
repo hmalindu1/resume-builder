@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { Cont } from 'src/app/Cont';
 import { faCircleXmark } from '@fortawesome/free-solid-svg-icons';
 import { faMobileScreenButton } from '@fortawesome/free-solid-svg-icons';
@@ -16,10 +16,15 @@ export class ContItemComponent implements OnInit {
   faEnvelopeOpen = faEnvelopeOpen;
   faLocationDot = faLocationDot;
   @Input() cont!: Cont;
+  @Output() on_delete_cont_i: EventEmitter<Cont> = new EventEmitter;
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  on_delete(cont: Cont) {
+    this.on_delete_cont_i.emit(cont)
   }
 
 }

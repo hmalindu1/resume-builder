@@ -21,6 +21,11 @@ export class ConstService {
     return this.http.get<Cont[]>(this.api_url)
   }
 
+  delete_cont_s(cont: Cont): Observable<Cont> {
+    const url = `${this.api_url}/${cont.id}`;
+    return this.http.delete<Cont>(url);
+  }
+
   add_cont_s(cont: Cont): Observable<Cont> {
     return this.http.post<Cont>(this.api_url, cont, http_options)
   }

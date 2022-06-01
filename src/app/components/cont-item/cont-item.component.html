@@ -3,7 +3,7 @@
         <h3>{{cont.name}}</h3>
         <h5 class="phn_no">
             <fa-icon [ngStyle]="{'color': 'rgb(0, 153, 255)'}" class="phn" [icon]="faMobileScreenButton" size="1x"></fa-icon>{{cont.mo_number}}
-            <fa-icon [ngStyle]="{'color': 'rgb(235, 83, 83)'}" class="close" [icon]="faCircleXmark" size="2x"></fa-icon>
+            <fa-icon (click)="on_delete(cont)" [ngStyle]="{'color': 'rgb(235, 83, 83)'}" class="close" [icon]="faCircleXmark" size="2x"></fa-icon>
         </h5>
     </div>
     <div class="row_two">
