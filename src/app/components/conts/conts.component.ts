@@ -16,4 +16,8 @@ export class ContsComponent implements OnInit {
     this.cont_service.get_conts().subscribe((conts) => (this.conts = conts));
   }
 
+  add_cont(cont: Cont) {
+    this.cont_service.add_cont_s(cont).subscribe((cont) => (this.conts.push(cont)))
+  }
+
 }
