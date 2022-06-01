@@ -13,13 +13,12 @@
 .prd {
     font-size: xx-small;
     font-style: italic;
-    margin-right: 10px;
 }
 
 .yrs {
     font-size: xx-small;
     font-style: italic;
-    margin-right: 35px;
+    margin-right: 20px;
 }
 
 .pro {
@@ -41,6 +40,6 @@
 }
 
 .close {
-    margin-left: 5px;
+    margin-left: 0px;
     cursor: pointer;
 }
