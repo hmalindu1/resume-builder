@@ -41,5 +41,19 @@
       "exp": "1 Year and 6 months",
       "id": 2
     }
+  ],
+  "certs": [
+    {
+      "id": 1,
+      "description": "Responsive Web Design from freeCodeCamp"
+    },
+    {
+      "id": 2,
+      "description": "Programming Foundation: Fundamentals"
+    },
+    {
+      "id": 3,
+      "description": "Programming Foundation: Object-Oriented Design"
+    }
   ]
 }
