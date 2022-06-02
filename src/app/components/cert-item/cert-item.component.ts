@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { Cert } from "../../Cert";
 import { faCircle } from '@fortawesome/free-solid-svg-icons';
 import { faCircleXmark } from '@fortawesome/free-solid-svg-icons';
@@ -12,10 +12,15 @@ export class CertItemComponent implements OnInit {
   faCircle = faCircle;
   faCircleXmark = faCircleXmark;
   @Input() cert!: Cert;
+  @Output() on_delete_cert_i: EventEmitter<Cert> = new EventEmitter;
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  on_delete(cert: Cert) {
+    this.on_delete_cert_i.emit(cert)
   }
 
 }

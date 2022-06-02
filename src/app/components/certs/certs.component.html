@@ -1,2 +1,2 @@
 <app-add-cert (on_add_cert_a)="add_cert($event)"></app-add-cert>
-<app-cert-item *ngFor="let cert of certs" [cert]="cert"></app-cert-item>
+<app-cert-item *ngFor="let cert of certs" [cert]="cert" (on_delete_cert_i)="delete_cert(cert)"></app-cert-item>

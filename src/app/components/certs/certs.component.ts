@@ -16,6 +16,10 @@ export class CertsComponent implements OnInit {
     this.cert_service.get_certs().subscribe((certs) =>(this.certs = certs))
   }
 
+  delete_cert(cert: Cert) {
+    this.cert_service.delete_cert_s(cert).subscribe(() => (this.certs = this.certs.filter((e) => e.id !== cert.id)));
+  }
+
   add_cert(cert: Cert) {
     this.cert_service.add_cert_s(cert).subscribe((cert) => (this.certs.push(cert)))
   }
