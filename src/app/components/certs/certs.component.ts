@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Cert } from "../../Cert";
 
 @Component({
   selector: 'app-certs',
