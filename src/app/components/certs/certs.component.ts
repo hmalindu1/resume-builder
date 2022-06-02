@@ -13,6 +13,7 @@ export class CertsComponent implements OnInit {
   constructor(private cert_service: CertService) { }
 
   ngOnInit(): void {
+    this.cert_service.get_certs().subscribe((certs) =>(this.certs = certs))
   }
 
 }
