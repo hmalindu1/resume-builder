@@ -45,15 +45,19 @@
   "certs": [
     {
       "id": 1,
-      "description": "Responsive Web Design from freeCodeCamp"
+      "description": "Responsive Web Design from freeCodeCamp",
+      "url": "https://www.freecodecamp.org/certification/fccb3bb8c7c-0ff6-48c0-acc6-44df8619f8af/responsive-web-design"
+
     },
     {
       "id": 2,
-      "description": "Programming Foundation: Fundamentals"
+      "description": "Programming Foundation: Fundamentals",
+      "url": "https://www.linkedin.com/learning/certificates/df5428efd1dc80be0f28a3afbc780e716bd903864b2fd88e754a2ab558deb534"
     },
     {
       "id": 3,
-      "description": "Programming Foundation: Object-Oriented Design"
+      "description": "Programming Foundation: Object-Oriented Design",
+      "url": "https://www.linkedin.com/learning/certificates/38efde58ec8a8197c472d1eda5d05954705a23e9e20327a84b7c3cbee1f23afc"
     }
   ]
 }
