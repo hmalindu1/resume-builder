@@ -2,5 +2,5 @@
     <h4>
         <fa-icon class="id_icon" [icon]="faAddressCard"></fa-icon>{{title}}
     </h4>
-    <app-button color="rgb(54, 174, 124)" text="Add"></app-button>
+    <app-button color="{{show_add_cont ? 'rgb(235, 83, 83)' : 'rgb(54, 174, 124)'}}" text="{{show_add_cont? 'Close' : 'Add'}}" (btn_click)="toggle_add_contact()"></app-button>
 </header>
