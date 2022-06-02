@@ -7,6 +7,7 @@ import { Cert } from "../../Cert";
   styleUrls: ['./certs.component.css']
 })
 export class CertsComponent implements OnInit {
+  certs: Cert[] = [];
 
   constructor() { }
 
