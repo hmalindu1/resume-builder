@@ -9,7 +9,7 @@ import { Cert } from 'src/app/Cert';
 export class AddCertComponent implements OnInit {
   @Output() on_add_cert_a: EventEmitter<Cert> = new EventEmitter();
   description!: string;
-  url!: URL;
+  url!: string;
 
   constructor() { }
 
