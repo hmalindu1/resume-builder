@@ -1,7 +1,13 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from "@angular/common/http";
+import { HttpClient, HttpHeaders } from "@angular/common/http";
 import { Observable, } from "rxjs";
 import { Cert } from '../Cert';
+
+const http_options = {
+  headers: new HttpHeaders({
+    'Content-Type' : 'application/json' 
+  })
+}
 
 
 @Injectable({
@@ -14,5 +20,9 @@ export class CertService {
 
   get_certs(): Observable<Cert[]> {
     return this.http.get<Cert[]>(this.api_url)
+  }
+
+  add_cert_s(cert: Cert): Observable<Cert> {
+    return this.http.post<Cert>(this.api_url, cert, http_options )
   }
 }
