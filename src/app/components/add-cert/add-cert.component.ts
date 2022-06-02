@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./add-cert.component.css']
 })
 export class AddCertComponent implements OnInit {
+  description!: string;
+  url!: URL;
 
   constructor() { }
 
