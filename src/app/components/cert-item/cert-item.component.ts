@@ -7,6 +7,7 @@ import { Cert } from "../../Cert";
   styleUrls: ['./cert-item.component.css']
 })
 export class CertItemComponent implements OnInit {
+  @Input() cert!: Cert;
 
   constructor() { }
 
