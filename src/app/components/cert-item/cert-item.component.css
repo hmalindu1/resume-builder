@@ -1,12 +1,12 @@
 .cert {
+    display:flex;
     padding: 2px 0px 0px 10px;
     font-size: x-small;
-    margin-left: 30px;
-    align-content: center;
-}
-
-.des {
-    display: flex;
+    margin-left: 27px;
+    margin-right: 22px;
+    margin-bottom: -4px;
+    align-items: center;  
+    justify-content: space-between;
 }
 
 .cir {
@@ -14,7 +14,16 @@
     font-size: 8px;
 }
 
-.cert a {
+.des {
     text-decoration: none;
     color: black;
+}
+
+.both {
+    display: flex;
+}
+
+.close {
+    cursor: pointer;
+    font-size: 12px;
 }
