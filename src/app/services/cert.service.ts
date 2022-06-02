@@ -7,5 +7,5 @@ import { HttpClient } from "@angular/common/http";
 export class CertService {
   private api_url = 'http://localhost:5000/certs'
 
-  constructor() { }
+  constructor(private http:HttpClient) { }
 }
