@@ -1,34 +1,24 @@
 {
   "exps": [
     {
-      "id": 1,
-      "company": "LSEG",
-      "position": "Tech Lead",
-      "period": "June 2021 - Present",
-      "duration": "1 Years",
-      "project_one": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      "project_two": "Lorem Ipsum has been the industrys standard dummy text ever since the 1500s",
-      "project_three": "when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+      "company": "GeoTech Hub",
+      "position": "Full-Stack Developer",
+      "period": "December 2020 - Present",
+      "duration": "1 Year, 6 months",
+      "project_one": " Developing stand-alone and web based Geographical  Information System for Bandarawela Municipal Council,  focused on handling geographical data on Road Development  Authority (RDA) and Survey Department. Data structure is  being developed using a quality standardized Land  Administrative Domain Modal. ",
+      "project_two": " Developing a web based GIS application for Sabaragamuwa  Provincial Agriculture Department for managing geospatial  data on Grama Sewa Divisions, District Secretariat Divisions,  District Division and Provincial vice.",
+      "project_three": " Developing a Content Management System for Sabaragamuwa  Provincial Agriculture Department to access web GIS  application features within different administrative level.",
+      "id": 4
     },
     {
-      "id": 2,
-      "company": "Synopsys",
-      "position": "Assoceate Tech Lead",
-      "period": "March 2018 - June 2021",
-      "duration": "2 Years",
-      "project_one": "It has survived not only five centuries",
-      "project_two": "but also the leap into electronic typesetting, remaining essentially unchanged",
-      "project_three": "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages"
-    },
-    {
-      "company": "Test Company",
-      "position": "Test Position",
-      "period": "Test Period",
-      "duration": "Test Duration",
-      "project_one": "Test project 1",
-      "project_two": "Test project 2",
-      "project_three": "Test project 3",
-      "id": 3
+      "company": "Fiverr / Upwork",
+      "position": "Freelance Graphic Designer",
+      "period": "2014 - Present",
+      "duration": "8 Years",
+      "project_one": "Working with well established world wide customer base and meet with clients to determine the scope of large projects.",
+      "project_two": "Design layouts, including selection of colors, images, and typefaces using professional software to help deliver the message by the client",
+      "project_three": "Review designs for errors before printing or publishing them and incorporate changed recommended by clients or art directors into final outcome. ",
+      "id": 5
     }
   ],
   "conts": [
@@ -49,14 +39,34 @@
       "url": "https://www.freecodecamp.org/certification/fccb3bb8c7c-0ff6-48c0-acc6-44df8619f8af/responsive-web-design"
     },
     {
-      "id": 2,
-      "description": "Programming Foundation: Fundamentals",
-      "url": "https://www.linkedin.com/learning/certificates/df5428efd1dc80be0f28a3afbc780e716bd903864b2fd88e754a2ab558deb534"
+      "description": "Programming Foundation: Fundamentals from LinkedIn Learning",
+      "url": "https://www.linkedin.com/learning/certificates/df5428efd1dc80be0f28a3afbc780e716bd903864b2fd88e754a2ab558deb534",
+      "id": 2
     },
     {
-      "id": 3,
-      "description": "Programming Foundation: Object-Oriented Design",
-      "url": "https://www.linkedin.com/learning/certificates/38efde58ec8a8197c472d1eda5d05954705a23e9e20327a84b7c3cbee1f23afc"
+      "description": "Programming Foundation: Object-Oriented Design from LinkedIn Learning",
+      "url": "https://www.linkedin.com/learning/certificates/38efde58ec8a8197c472d1eda5d05954705a23e9e20327a84b7c3cbee1f23afc",
+      "id": 3
+    },
+    {
+      "description": "Python Essential Training from LinkedIn Learning",
+      "url": "https://www.linkedin.com/learning/certificates/2654a062a06a734f2b2314837229c25a89db20feb09c14ac3112f12fc07dd405",
+      "id": 4
+    },
+    {
+      "description": "DevOps Foundation from LinkedIn Learning",
+      "url": "https://www.linkedin.com/learning/certificates/02e6543d1411944da8ec18d6a8feaf2d5635d9d85332d311f591d997cebc8613?trk=share_certificate",
+      "id": 5
+    },
+    {
+      "description": "DevOps Tips from LinkedIn Learning",
+      "url": "https://www.linkedin.com/learning/certificates/922e826e1933f46d877fdaecb5ec7b2ff7864b5c40bf1010c8cc7c2d301120cb",
+      "id": 6
+    },
+    {
+      "description": "Awarded as winning team for official website development of ITUM (Institute of Technology, University of Moratuwa))",
+      "url": "https://drive.google.com/file/d/1qep44_bZSdN2PzGEERNGODk3yW_JYYak/view",
+      "id": 7
     }
   ]
 }
