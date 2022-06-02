@@ -17,6 +17,7 @@ import { ContItemComponent } from './components/cont-item/cont-item.component';
 import { AddContComponent } from './components/add-cont/add-cont.component';
 import { CertsHeaderComponent } from './components/certs-header/certs-header.component';
 import { CertsComponent } from './components/certs/certs.component';
+import { CertItemComponent } from './components/cert-item/cert-item.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { CertsComponent } from './components/certs/certs.component';
     AddContComponent,
     CertsHeaderComponent,
     CertsComponent,
+    CertItemComponent,
   ],
   imports: [
     BrowserModule,
