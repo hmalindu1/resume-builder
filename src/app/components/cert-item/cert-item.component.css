@@ -4,7 +4,7 @@
     font-size: x-small;
     margin-left: 27px;
     margin-right: 22px;
-    margin-bottom: -4px;
+    margin-bottom: 0px;
     align-items: center;  
     justify-content: space-between;
 }
@@ -12,11 +12,14 @@
 .cir {
     margin-right: 5px;
     font-size: 8px;
+    
 }
 
 .des {
+    display: flex;
     text-decoration: none;
     color: black;
+    align-items: center;
 }
 
 .both {
