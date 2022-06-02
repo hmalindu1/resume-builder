@@ -9,7 +9,7 @@ import { Subscription } from "rxjs";
   styleUrls: ['./info.component.css']
 })
 export class InfoComponent implements OnInit {
-  title: string = 'Personal Information';
+  title: string = 'About me';
   faAddressCard = faAddressCard;
   show_add_cont!: boolean;
   subscription!: Subscription;
