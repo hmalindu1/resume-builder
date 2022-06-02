@@ -16,4 +16,8 @@ export class CertsComponent implements OnInit {
     this.cert_service.get_certs().subscribe((certs) =>(this.certs = certs))
   }
 
+  add_cert(cert: Cert) {
+    this.cert_service.add_cert_s(cert).subscribe((cert) => (this.certs.push(cert)))
+  }
+
 }
