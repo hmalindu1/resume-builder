@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CertService } from "../../services/cert.service";
 import { Cert } from "../../Cert";
 
 @Component({
