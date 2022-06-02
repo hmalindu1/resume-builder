@@ -1,5 +1,7 @@
 <div class="cert">
-    <a href="{{cert.url}}" target="_blank">
-        <fa-icon class="cir" [icon]="faCircle" size="xs"></fa-icon>{{cert.description}}
+    <a class="des" href="{{cert.url}}" target="_blank">
+        <fa-icon class="cir" [icon]="faCircle" size="xs"></fa-icon>
+        {{cert.description}}
     </a>
+    <fa-icon class="close" [ngStyle]="{'color': 'rgb(235, 83, 83)'}" [icon]="faCircleXmark"></fa-icon>
 </div>
