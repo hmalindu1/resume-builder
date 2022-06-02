@@ -1,4 +1,5 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { ContUiService } from "../../services/cont-ui.service";
 import { Subscription } from "rxjs";
 import { Cont } from 'src/app/Cont';
 
@@ -16,8 +17,12 @@ export class AddContComponent implements OnInit {
   email!: string;
   location!: string;
   exp!: string;
+  show_add_cont!: boolean;
+  subscription!: Subscription;
 
-  constructor() { }
+  constructor( private cont_ui_service:ContUiService) { 
+    this.subscription = this.cont_ui_service.on_toggle_add_cont().subscribe((value) => (this.show_add_cont = value))
+  }
 
   ngOnInit(): void {
   }
