@@ -26,16 +26,18 @@
 
 .phn_no {
     font-size: x-small;
+    margin-right: 20px;
 }
 
 .close {
-    margin-left: 0px;
+    margin-left: 5px;
     cursor: pointer;
+    font-size: 7px;
 }
 
 .email {
     font-size: x-small;
-    margin-right: 23px;
+    margin-right: 20px;
 }
 
 .phn {
