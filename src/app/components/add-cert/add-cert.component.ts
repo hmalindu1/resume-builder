@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { Cert } from 'src/app/Cert';
 
 @Component({
   selector: 'app-add-cert',
