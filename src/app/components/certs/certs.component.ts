@@ -10,7 +10,7 @@ import { Cert } from "../../Cert";
 export class CertsComponent implements OnInit {
   certs: Cert[] = [];
 
-  constructor() { }
+  constructor(private cert_service: CertService) { }
 
   ngOnInit(): void {
   }
