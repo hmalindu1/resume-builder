@@ -9,7 +9,7 @@ import { Subscription } from "rxjs";
   styleUrls: ['./certs-header.component.css']
 })
 export class CertsHeaderComponent implements OnInit {
-  title: string = 'Certifications and Awards';
+  title: string = 'Certifications, Awards and Projects';
   faGraduationCap = faGraduationCap;
   show_add_cert!: boolean;
   subscription!: Subscription;
