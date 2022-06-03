@@ -15,7 +15,7 @@ export class AddCertComponent implements OnInit {
   show_add_cert!: boolean;
   subscription!: Subscription;
 
-  constructor( private cert_ui_service:CertUiService) { 
+  constructor(private cert_ui_service:CertUiService) { 
     this.subscription = this.cert_ui_service.on_toggle_add_cert().subscribe((value) => (this.show_add_cert = value))
   }
 

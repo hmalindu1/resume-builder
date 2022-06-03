@@ -1,0 +1,33 @@
+.full {
+    margin: 0px 4px 0px 10px;
+    padding: 2px 0px 3px 10px;
+    color: black;
+}
+
+.row_one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+.row_two {
+    margin: 0 0 0 14px;
+}
+
+.cir {
+    margin-right: 5px;
+}
+
+.close {
+    cursor: pointer;
+    font-size: 6px;
+}
+
+.bth {
+    font-size: smaller;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}

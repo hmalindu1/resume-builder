@@ -1,0 +1,2 @@
+<app-add-educ (on_add_educ_a)="add_educ($event)"></app-add-educ>
+<app-educ-item *ngFor="let educ of educs" [educ]="educ" (on_delete_educ_i)="delete_educ(educ)"></app-educ-item>

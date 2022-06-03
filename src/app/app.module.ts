@@ -20,6 +20,9 @@ import { CertsComponent } from './components/certs/certs.component';
 import { CertItemComponent } from './components/cert-item/cert-item.component';
 import { AddCertComponent } from './components/add-cert/add-cert.component';
 import { EducsHeaderComponent } from './components/educs-header/educs-header.component';
+import { EducsComponent } from './components/educs/educs.component';
+import { EducItemComponent } from './components/educ-item/educ-item.component';
+import { AddEducComponent } from './components/add-educ/add-educ.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +41,9 @@ import { EducsHeaderComponent } from './components/educs-header/educs-header.com
     CertItemComponent,
     AddCertComponent,
     EducsHeaderComponent,
+    EducsComponent,
+    EducItemComponent,
+    AddEducComponent,
   ],
   imports: [
     BrowserModule,

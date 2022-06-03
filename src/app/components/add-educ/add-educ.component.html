@@ -1,0 +1,23 @@
+<form *ngIf="show_add_educ" (ngSubmit)="on_submit()">
+    <div class="form-control">
+        <h4 for="university">Add University</h4>
+        <input type="text" name="university" [(ngModel)]="university" id="university" placeholder="Add university here">
+    </div>
+    <div class="form-control">
+        <h4 for="period">Add Period</h4>
+        <input type="period" name="period" [(ngModel)]="period" id="period" placeholder="Add period here">
+    </div>
+    <div class="form-control">
+        <h4 for="program">Add Program</h4>
+        <input type="program" name="program" [(ngModel)]="program" id="program" placeholder="Add program here">
+    </div>
+    <div class="form-control">
+        <h4 for="class">Add Class</h4>
+        <input type="class" name="class" [(ngModel)]="class" id="class" placeholder="Add class here">
+    </div>
+    <div class="form-control">
+        <h4 for="gpa">Add GPA</h4>
+        <input type="gpa" name="gpa" [(ngModel)]="gpa" id="gpa" placeholder="Add GPA here">
+    </div>
+    <input type="submit" value="Save" class="btn btn-block">
+</form>

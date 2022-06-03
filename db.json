@@ -73,5 +73,31 @@
       "url": "https://drive.google.com/drive/folders/1I8fDB28-aA6tdkXRMK9jBtrikpow9vK9",
       "id": 8
     }
+  ],
+  "educs": [
+    {
+      "id": 1,
+      "university": "De Montfort university Leicester",
+      "period": "March 2018 - June 2019",
+      "program": "BEng (Hons) in Mechatronics",
+      "class": "First Class",
+      "gpa": "360 Credits"
+    },
+    {
+      "university": "University of Moratuwa",
+      "period": "December 2015 - March 2018",
+      "program": "Mechanical Engineering Technology",
+      "class": "Credit Pass",
+      "gpa": "60% Average",
+      "id": 2
+    },
+    {
+      "university": "Badulla Central Collage",
+      "period": "March 2002 - August 2010",
+      "program": "GCE A/L",
+      "class": "B- Math, B- Physics, C- Chemistry",
+      "gpa": "Z-Score: 1.1308 ",
+      "id": 3
+    }
   ]
 }
