@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { faUserGraduate } from '@fortawesome/free-solid-svg-icons';
+
 
 @Component({
   selector: 'app-educs-header',
@@ -6,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./educs-header.component.css']
 })
 export class EducsHeaderComponent implements OnInit {
+  title: string = 'Education';
+  faUserGraduate = faUserGraduate;
 
   constructor() { }
 
