@@ -1,0 +1,3 @@
+<app-add-car (on_add_car_a)="add_car($event)"></app-add-car>
+<app-car-item *ngFor="let car of cars" [car]="car" (on_delete_car_i)="delete_car(car)"></app-car-item>
+

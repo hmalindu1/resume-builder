@@ -10,7 +10,8 @@ import { WhoUiService } from "../../services/who-ui.service";
 })
 export class WhosHeaderComponent implements OnInit {
   title: string = 'Who am I?';
-  faUser = faUser;show_add_who!: boolean;
+  faUser = faUser;
+  show_add_who!: boolean;
   subscription!: Subscription;
 
   constructor(private who_ui_service:WhoUiService) { 

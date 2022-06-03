@@ -1,0 +1,12 @@
+.both {
+    color: black;
+    font-size: x-small;
+    text-align: justify;
+    margin: 0 3px 0 5px;
+    display: flex;
+}
+
+.close {
+    font-size: 7px;
+    cursor: pointer;
+}

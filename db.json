@@ -103,7 +103,13 @@
   "whos": [
     {
       "id": 1,
-      "des": "Dedicated and Self-Learning enthusiast with passion for software development encouraged with strong research background"
+      "des": "I am a dedicated and self-learning enthusiast with passion for software development, as a Full-Stack practitioner I always think about using trending frameworks and simplifying the process with clean and efficient code. Over the years I sharpen my technical skills in the area of JavaScript Frameworks."
+    }
+  ],
+  "cars": [
+    {
+      "id": 1,
+      "des": "I am looking for a challange to improve myself and an opportunity to learn and grow"
     }
   ]
 }

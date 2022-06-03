@@ -27,6 +27,10 @@ import { WhosHeaderComponent } from './components/whos-header/whos-header.compon
 import { WhosComponent } from './components/whos/whos.component';
 import { WhoItemComponent } from './components/who-item/who-item.component';
 import { AddWhoComponent } from './components/add-who/add-who.component';
+import { CarsHeaderComponent } from './components/cars-header/cars-header.component';
+import { CarsComponent } from './components/cars/cars.component';
+import { CarItemComponent } from './components/car-item/car-item.component';
+import { AddCarComponent } from './components/add-car/add-car.component';
 
 @NgModule({
   declarations: [
@@ -52,6 +56,10 @@ import { AddWhoComponent } from './components/add-who/add-who.component';
     WhosComponent,
     WhoItemComponent,
     AddWhoComponent,
+    CarsHeaderComponent,
+    CarsComponent,
+    CarItemComponent,
+    AddCarComponent,
   ],
   imports: [
     BrowserModule,

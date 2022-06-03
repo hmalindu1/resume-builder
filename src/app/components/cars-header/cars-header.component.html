@@ -1,0 +1,6 @@
+<header>
+    <h4>
+        <fa-icon [icon]="faCrosshairs"></fa-icon> {{title}}
+    </h4>
+    <app-button color="{{show_add_car ? 'rgb(235, 83, 83)' : 'rgb(54, 174, 124)'}}" text="{{show_add_car ? 'Close' : 'Add'}}" (btn_click)="toggle_add_career()"></app-button>
+</header>
