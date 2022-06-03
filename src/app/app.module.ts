@@ -19,6 +19,7 @@ import { CertsHeaderComponent } from './components/certs-header/certs-header.com
 import { CertsComponent } from './components/certs/certs.component';
 import { CertItemComponent } from './components/cert-item/cert-item.component';
 import { AddCertComponent } from './components/add-cert/add-cert.component';
+import { EducsHeaderComponent } from './components/educs-header/educs-header.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { AddCertComponent } from './components/add-cert/add-cert.component';
     CertsComponent,
     CertItemComponent,
     AddCertComponent,
+    EducsHeaderComponent,
   ],
   imports: [
     BrowserModule,
