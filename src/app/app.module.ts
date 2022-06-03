@@ -31,6 +31,8 @@ import { CarsHeaderComponent } from './components/cars-header/cars-header.compon
 import { CarsComponent } from './components/cars/cars.component';
 import { CarItemComponent } from './components/car-item/car-item.component';
 import { AddCarComponent } from './components/add-car/add-car.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { DragDropModule } from "@angular/cdk/drag-drop";
 
 @NgModule({
   declarations: [
@@ -65,7 +67,9 @@ import { AddCarComponent } from './components/add-car/add-car.component';
     BrowserModule,
     FontAwesomeModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule,
+    DragDropModule
   ],
   providers: [],
   bootstrap: [AppComponent]
