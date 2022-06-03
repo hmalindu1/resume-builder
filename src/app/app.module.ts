@@ -23,6 +23,10 @@ import { EducsHeaderComponent } from './components/educs-header/educs-header.com
 import { EducsComponent } from './components/educs/educs.component';
 import { EducItemComponent } from './components/educ-item/educ-item.component';
 import { AddEducComponent } from './components/add-educ/add-educ.component';
+import { WhosHeaderComponent } from './components/whos-header/whos-header.component';
+import { WhosComponent } from './components/whos/whos.component';
+import { WhoItemComponent } from './components/who-item/who-item.component';
+import { AddWhoComponent } from './components/add-who/add-who.component';
 
 @NgModule({
   declarations: [
@@ -44,6 +48,10 @@ import { AddEducComponent } from './components/add-educ/add-educ.component';
     EducsComponent,
     EducItemComponent,
     AddEducComponent,
+    WhosHeaderComponent,
+    WhosComponent,
+    WhoItemComponent,
+    AddWhoComponent,
   ],
   imports: [
     BrowserModule,

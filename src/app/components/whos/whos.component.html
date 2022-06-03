@@ -1,0 +1,2 @@
+<app-add-who (on_add_who_a)="add_who($event)"></app-add-who>
+<app-who-item *ngFor="let who of whos" [who]="who" (on_delete_who_i)="delete_who(who)"></app-who-item>

@@ -1,0 +1,6 @@
+<header>
+    <h4>
+        <fa-icon [icon]="faUser"></fa-icon> {{title}}
+    </h4>
+    <app-button color="{{show_add_who ? 'rgb(235, 83, 83)' : 'rgb(54, 174, 124)'}}" text="{{show_add_who ? 'Close' : 'Add'}}" (btn_click)="toggle_add_whoami()"></app-button>
+</header>

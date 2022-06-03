@@ -20,6 +20,7 @@ body {
 }
 
 .container {
+    display: flex;
     width: 205mm;
     margin: 10px auto;
     overflow: auto;
@@ -37,7 +38,17 @@ body {
     border-radius: 5px;
     padding: 4px 2px 11px 11px;
     color: rgb(0, 153, 255);
-    margin: 15px;
+    margin: 15px 7px 15px 15px;
+}
+
+.topic-right {
+    width: 56mm;
+    border: 1px solid rgb(158, 158, 158);
+    min-height: 30mm;
+    border-radius: 5px;
+    padding: 4px 2px 11px 11px;
+    color: rgb(0, 153, 255);
+    margin: 15px 15px 15px 7px;
 }
 
 .btn {
@@ -64,8 +75,8 @@ body {
 
 .btn-block {
     display: block;
-    width: 117mm;
-    margin: 0 0 0 10px;
+    width: -webkit-fill-available;
+    margin: 0 24px 8px 10px;
     background-color: rgb(54, 174, 124);
 }
 
@@ -94,4 +105,20 @@ header {
     align-items: center;
     margin-bottom: 0px;
     font-size: smaller;
+}
+
+.form-control-projects h4 {
+    margin: 0 20px 6px 10px;
+    display: block;
+    color: rgb(54, 54, 54);
+}
+
+.form-control-projects input {
+    width: -webkit-fill-available;
+    margin: 5px;
+    padding: 3px 7px;
+    font-size: 10px;
+    margin: 0 20px 10px 10px;
+    font-family: inherit;
+
 }
