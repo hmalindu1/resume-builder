@@ -10,7 +10,7 @@ import { EducUiService } from "../../services/educ-ui.service";
   styleUrls: ['./educs-header.component.css']
 })
 export class EducsHeaderComponent implements OnInit {
-  title: string = 'Education ';
+  title: string = 'Education';
   faUserGraduate = faUserGraduate;
   show_add_educ!: boolean;
   subscription!: Subscription;
