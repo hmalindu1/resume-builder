@@ -13,7 +13,7 @@ const http_options = {
   providedIn: 'root'
 })
 export class ExpService {
-  private api_url = 'http://localhost:5000/exps'
+  private api_url = 'https://angular-crud-json-app.herokuapp.com/exps'
 
   constructor(private http:HttpClient) { }
 

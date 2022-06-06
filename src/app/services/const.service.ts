@@ -13,7 +13,7 @@ const http_options = {
   providedIn: 'root'
 })
 export class ConstService {
-  private api_url = 'http://localhost:5000/conts'
+  private api_url = 'https://angular-crud-json-app.herokuapp.com/conts'
 
   constructor(private http:HttpClient) { }
 

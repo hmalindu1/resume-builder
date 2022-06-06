@@ -14,7 +14,7 @@ const http_options = {
   providedIn: 'root'
 })
 export class CertService {
-  private api_url = 'http://localhost:5000/certs'
+  private api_url = 'https://angular-crud-json-app.herokuapp.com/certs'
 
   constructor(private http:HttpClient) { }
 

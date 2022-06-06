@@ -13,7 +13,7 @@ const http_options = {
   providedIn: 'root'
 })
 export class WhoService {
-  private api_url = 'http://localhost:5000/whos'
+  private api_url = 'https://angular-crud-json-app.herokuapp.com/whos'
 
 
   constructor(private http:HttpClient) { }
